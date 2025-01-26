@@ -22,6 +22,9 @@ public class GameManager : MonoBehaviour
     public int bonusChance = 10; // Шанс появления бонуса (в процентах)
     public int lifeBonusChance = 5; // Шанс появления бонуса на жизнь (в процентах)
     public float bonusTime = 5f; // Время, которое добавляет бонус
+    public int movementStartLevel = 3; // Уровень, с которого шарики начинают двигаться
+    public float baseMovementSpeed = 2f; // Базовая скорость движения шариков
+    public float speedIncreasePerLevel = 0.5f; // Увеличение скорости с каждым уровнем
 
     private int currentSequence = 1; // Текущая цифра в последовательности
     private bool isGameOver = false;
@@ -83,6 +86,13 @@ public class GameManager : MonoBehaviour
                     GameObject ball = Instantiate(ballPrefab, spawnPosition, Quaternion.identity);
                     ball.transform.parent = transform;
                     ball.GetComponent<Ball>().SetNumber(i + 1);
+
+                    // Если уровень >= movementStartLevel, активируем движение шарика
+                    if (currentLevel >= movementStartLevel)
+                    {
+                        float speed = baseMovementSpeed + (currentLevel - movementStartLevel) * speedIncreasePerLevel;
+                        ball.GetComponent<Ball>().SetMovementSpeed(speed);
+                    }
                 }
             }
 
@@ -147,6 +157,13 @@ public class GameManager : MonoBehaviour
             GameObject bonusBall = Instantiate(bonusPrefab, spawnPosition, Quaternion.identity);
             bonusBall.transform.parent = transform;
             bonusBall.GetComponent<Ball>().SetNumber(number);
+
+            // Если уровень >= movementStartLevel, активируем движение бонусного шарика
+            if (currentLevel >= movementStartLevel)
+            {
+                float speed = baseMovementSpeed + (currentLevel - movementStartLevel) * speedIncreasePerLevel;
+                bonusBall.GetComponent<Ball>().SetMovementSpeed(speed);
+            }
         }
     }
 

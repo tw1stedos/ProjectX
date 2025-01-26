@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{8CEB84C7-8174-5A83-B999-4F643B1078A9}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/WordCross/Scripts/Editor/LevelBuilder/LevelBuilderWindow.cs">
+    <Files>
+      <File FileName="Assets/WordCross/Scripts/Editor/LevelBuilder/LevelBuilderWindow.cs" Line="346" Column="39" />
+      <File FileName="Assets/WordCross/Scripts/Editor/LevelBuilder/LevelBuilderWindow.cs" Line="1294" Column="1" />
+      <File FileName="Assets/WordCross/Scripts/Editor/WordConnectMenu.cs" Line="17" Column="1" />
+      <File FileName="Assets/WordCross/Scripts/Editor/WordConnectMenu.cs" Line="17" Column="1" />
+      <File FileName="Assets/GleyPlugins/Ads/Scripts/Editor/SettingsWindow.cs" Line="40" Column="1" />
+      <File FileName="Assets/WordCross/Scripts/Editor/LevelBuilder/LevelBuilderUtilities.cs" Line="226" Column="38" />
+      <File FileName="Assets/WordCross/Scripts/Editor/LevelBuilder/BatchLevelCreationWorker.cs" Line="127" Column="54" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="475eabde-d7fe-461e-88dc-67dc754f9061" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

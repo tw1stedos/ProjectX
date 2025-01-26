@@ -5,6 +5,7 @@ public class Ball : MonoBehaviour
 {
     public int number; // Номер шарика
     public TextMeshPro numberText; // Текст для отображения номера
+    public BallMovement ballMovement; // Компонент для движения шарика
 
     public void SetNumber(int num)
     {
@@ -22,6 +23,14 @@ public class Ball : MonoBehaviour
             default: // Обычный шарик
                 numberText.text = num.ToString(); // Отображаем номер
                 break;
+        }
+    }
+
+    public void SetMovementSpeed(float speed)
+    {
+        if (ballMovement != null)
+        {
+            ballMovement.speed = speed; // Устанавливаем скорость движения
         }
     }
 }

@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{5BEBA6AB-175D-CC7E-7464-2603203074F5}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/WordCross/Scripts/Editor/LevelBuilder/LevelBuilderWindow.cs">
+    <Files>
+      <File FileName="Assets/WordCross/Framework/Scripts/Screen/MainScreen.cs" Line="19" Column="61" />
+      <File FileName="Assets/WordCross/Scripts/UI/RewardAdButton.cs" />
+      <File FileName="Assets/WordCross/Scripts/UI/TextImageCompleted.cs" />
+      <File FileName="Assets/WordCross/Scripts/Game/LevelCompletePopup.cs" />
+      <File FileName="Assets/WordCross/Framework/Scripts/Ads/MobileAdsManager.cs" />
+      <File FileName="Assets/WordCross/Framework/Scripts/Ads/Editor/MobileAdsManagerEditor.cs" />
+      <File FileName="Assets/WordCross/Framework/Scripts/Ads/Editor/MobileAdsSettingsWindow.cs" />
+      <File FileName="Assets/WordCross/Scripts/Game/GameController.cs" />
+      <File FileName="Assets/WordCross/Framework/Scripts/Save/SaveManager.cs" Line="38" Column="1" />
+      <File FileName="Assets/WordCross/Scripts/Editor/Inspector/LevelPreviewTextEditor.cs" Line="1" Column="1" />
+      <File FileName="Assets/WordCross/Scripts/Editor/LevelBuilder/LevelBuilderWindow.cs" Line="668" Column="16" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ca2ffc60-6f79-45eb-99e8-5ee32fd98b88" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
